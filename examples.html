@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container{
+            width: 300px;
+            height: 200px;
+            opacity: 0; /* Start hidden */
+            transition: opacity 3s ease-out, transform 1s ease-out;
+            margin-top: 3rem;
+        }
+        .container1{
+            background-color: beige;
+            transform: translateX(-50px); /* Start slightly translated down */
+
+        }
+        .container2{
+            background-color: rgb(75, 52, 138);
+            transform: translateX(50px); /* Start slightly translated down */
+
+        }.container3{
+            background-color: rgb(32, 197, 27);
+            transform: translateX(-50px); /* Start slightly translated down */
+
+        }.container4{
+            background-color: rgb(124, 22, 27);
+            transform: translateX(50px); /* Start slightly translated down */
+
+        }.container5{
+            background-color: rgb(214, 214, 28);
+            transform: translateX(-50px); /* Start slightly translated down */
+
+        }
+        .container6{
+            background-color: rgb(196, 116, 24);
+            transform: translateX(50px); /* Start slightly translated down */
+
+        }
+        .containers{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            gap: 2rem;
+        }
+        .container.in-view ,.free-container-bit.in-view{
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html#home"><img class="logo" src="images/crypto-hunter-logo.png" alt=""></a>
+        <div class="navbar">
+            <ul>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <li>About</li>
+                <li>Technology</li>
+                <li>Product</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        
+    </header>
+    <!-- <div class='bitcoin-white-container'> -->
+        <div class="free-container-bit">
+            <div class="icon-container"><img src="images/faucet.png" class="icon"></div>
+            <h1>Faucets</h1>
+            <p>Crypto faucets are websites or apps that reward you with 
+                small amounts of cryptocurrency for completing simple 
+                tasks or captcha. It's a great way to get started with 
+                crypto without any investment.</p>
+        </div>
+        <div class="free-container-bit">
+            <div class="icon-container"><img src="images/gaming-gamepad-icon.png" class="icon"></div>
+            <h1>Games</h1>
+            <p>Earn crypto by playing fun and engaging games. Many 
+                blockchain-based games offer rewards in the form of cryptocurrency, 
+                allowing you to combine entertainment with earnings.</p>
+        </div>
+        <div class="free-container-bit">
+            <div class="icon-container"><img src="images/air-balloon-icon.png" class="icon"></div>
+            <h1>Airdrops</h1>
+            <p>Airdrops are a way for new cryptocurrency projects to 
+                distribute free tokens to potential users. By participating 
+                in airdrops, you can receive free crypto just for holding 
+                certain coins or following simple instructions.</p>
+        </div>
+    </div>
+    <div class="containers">
+        <div class="container container1"></div>
+        <div class="container container2"></div>
+        <div class="container container3"></div>
+        <div class="container container4"></div>
+        <div class="container container5"></div>
+        <div class="container container6"></div>
+    </div>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h2>Bitcoin Hunter</h2>
+            <p>Discover the best ways to earn free cryptocurrency through faucets, games, and airdrops. Stay updated with the latest in the crypto world and maximize your earnings.</p>
+          </div>
+          <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#methods">Earning Methods</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@bitcoinhunter.com</p>
+            <p>Phone: +123 456 7890</p>
+            <div class="social-media">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Bitcoin Hunter. All rights reserved.</p>
+        </div>
+      </footer>
+      
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
